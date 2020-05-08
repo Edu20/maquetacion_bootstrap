@@ -30,37 +30,36 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container" style="max-width: 900px; margin:auto;">
       <div class="row">
-        <div class="col-4">
-          <div>
+        <div class="col-4 shadow-sm text-sm-left">
+          <div class="text-sm-center">
             <img src="images/box2.png" alt="">
           </div>
-          <h3>
+          <h4>
             Producto 1
-          </h3>
+          </h4>
           <p>
             Miles de productos hay en el mercado, pero nada como una caja con gatitos
           </p>
         </div>
-        <div class="col-8">
-          <div class="modulo_pago">
+        <div class="col-8 shadow-sm p-3">
             <form action="http://google.com">
-              <label for="name">Nombre</label>
-              <br>
-              <input type="text" placeholder="" name="name" class="data">
-              <br>
-              <label for="email">E-mail</label>
-              <br>
-              <input type="text" placeholder="" name="email" class="data">
-              <br>
-              <label for="phone">Teléfono</label>
-              <br>
-              <input type="text" placeholder="" name="phone" class="data">
-              <br>
-              <input type="submit" class="main_btn" name="submit" value="Confirmar pago">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Ingrese el nombre" name="name" class="form-control form-control-sm">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="Ingrese su E-mail" name="email" class="form-control form-control-sm">
+              </div>
+              <div class="form-group">
+                <label for="phone">Teléfono</label>               
+                <input type="text" placeholder="Ingrese su telefono" name="phone" class="form-control form-control-sm">
+              </div>
+                <input type="submit" class="main_btn form-control form-control-sm name="submit" value="Confirmar pago" style="background-color: #7ACC2D;">
+              </div>
             </form>
-          </div>  
         </div>
       </div>
     </div>
