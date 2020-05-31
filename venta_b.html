@@ -32,40 +32,45 @@
   </nav>
   <br>
   <br>
-  <div class="container">
-    <h1 class="text-center">Productos</h1>
-    <hr>
+  <br>
+  <br>
+  <br>
+  <div class="container" id="container">
     <div class="row">
-      <div class="col-4">
-        <img src="images/imagen6.jpg" class="rounded float-left" alt="">
+      <div class="col-12 col-md-4 shadow-sm text-left">
+        <div class="text-center">
+          <img src="images/imagen2.jpg" alt="">
+        </div>
+        <h4>
+          Combo 2
+        </h4>
+        <p>
+          Ponienole juventud y No a tus años.
+        </p>
       </div>
-      <div class="col-8 text-center pt-5 mt-5">
-        <h4>Promo 1</h4>
-        <h4>$1299</h4>
-        <p>Remera mangas larga con dibujo carita + calza rosa.</p>
+      <div class="col-12 col-md-8 shadow-sm p-3">
+        <form action="compra_exitosa.html">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" placeholder="Ingrese el nombre" name="name" class="form-control form-control-sm">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Ingrese su E-mail" name="email" class="form-control form-control-sm">
+          </div>
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="text" placeholder="Ingrese su telefono" name="phone" class="form-control form-control-sm">
+          </div>
+          <input type="submit" class="form-control form-control-sm fondo-rosa text-white name="submit" value="Confirmar pago">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-8 text-center pt-5">
-        <h4>Promo 2</h4>
-        <h4>$1499</h4>
-        <p>Remera mangas larga de fiesta + calsa de algodón.</p>
-      </div>
-      <div class="col-4">
-        <img src="images/imagen7.jpg" class="rounded float-left" alt="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <img src="images/imagen8.jpg" class="rounded float-left pl-5" alt="">
-      </div>
-      <div class="col-8 mt-5 pt-5 text-center">
-        <h4>Promo 3</h4>
-        <h4>$899</h4>
-        <p>Remeron con estampa, amplia varidad de talles y colores.</p>
-      </div>
+      </form>
     </div>
   </div>
+  </div>
+  <br />
+  <br />
+  <br />
 
   <footer class="container-fluid d-flex justify-content-between bg-dark text-white">
     <div><a href="terminos_condiciones.html">Términos y condiciones</a></div>
